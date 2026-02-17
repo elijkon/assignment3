@@ -32,4 +32,8 @@ public class song {
     public void setTitle(String title) {
         this.title = title;
     }
+
+    public String toString() {
+        return "{ songName: " + title + ", artist: " + artist + ", length: " + length + " }";
+    }
 }
